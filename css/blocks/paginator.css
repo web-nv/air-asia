@@ -1,0 +1,38 @@
+.news__paginator {
+  text-align: center;
+}
+
+.news__paginator-display,
+.news__paginator-list {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.news__paginator-display {
+  margin-right: 36px;
+}
+
+.news__paginator-item {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.news__paginator-link {
+  display: block;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  line-height: 32px;
+  font-weight: bold;
+  transition: all 0.3s;
+}
+
+.news__paginator-item--active .news__paginator-link {
+  background-color: #fff;
+  color: #f5170e;
+}
+
+.news__paginator-link:hover {
+  background-color: #fff;
+  color: #f5170e;
+}

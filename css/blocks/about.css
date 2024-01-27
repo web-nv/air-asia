@@ -1,0 +1,37 @@
+.about {
+  padding: 145px 0 102px;
+}
+
+.about__container {
+  position: relative;
+}
+
+.about__img {
+  border-radius: 5px;
+}
+
+.about__info {
+  position: absolute;
+  width: 785px;
+  min-height: 455px;
+  background: url("../../img/home-page/about/about-2.jpg") center top no-repeat;
+  border-radius: 5px;
+  right: 0;
+  top: 97px;
+  padding: 70px 80px 66px;
+}
+
+.about__text {
+  margin-bottom: 42px;
+  width: 502px;
+  color: #060606;
+  line-height: 1.68;
+}
+
+.about__text p {
+  margin-bottom: 20px;
+}
+
+.about__text p:last-child {
+  margin-bottom: 0;
+}

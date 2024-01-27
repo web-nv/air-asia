@@ -1,0 +1,143 @@
+html {
+  height: 100%;
+  font-family: "Open Sans", Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.42;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  color: #fff;
+  background-color: #001821;
+}
+
+button {
+  border: 0;
+  cursor: pointer;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+address {
+  font-style: normal;
+}
+
+.wrapper {
+  overflow: hidden;
+  min-height: 100%;
+}
+
+.wrapper__content {
+  background: url("../../img/home-page/header/header-bg.png") center top
+      no-repeat,
+    url("../../img/home-page/about/about-bg.png") center bottom no-repeat;
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  max-width: 1140px;
+}
+
+.button {
+  display: inline-block;
+  padding: 18px 40px;
+  border-radius: 35px;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: #f5170e;
+  color: #fff;
+  transition: 0.3s all;
+}
+
+.button:hover {
+  background-color: #da0100;
+}
+
+.button--light {
+  padding: 17px 30px;
+  background-color: transparent;
+  color: #f5170e;
+  border: 1px solid #f5170e;
+}
+
+.button--light:hover {
+  background-color: #da0100;
+  color: #fff;
+  border: 1px solid #da0100;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.title--fire {
+  position: relative;
+}
+
+.title--fire::after {
+  content: "";
+  background: url("../../img/home-page/icons/flame.svg") no-repeat;
+  margin-left: 12px;
+  width: 21px;
+  height: 28px;
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+}
+
+.title--dark {
+  color: #000;
+  margin-bottom: 37px;
+}
+
+.hero__title {
+  font-size: 72px;
+  font-weight: bold;
+}
